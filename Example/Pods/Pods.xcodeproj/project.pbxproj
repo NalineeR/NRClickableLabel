@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C3C08D97A53E3E299CF992355CA725 /* Pods-NRClickableLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0159EF6E6E38F3930AA63F075056FA01 /* Pods-NRClickableLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		220F192BBA1008A609A88807DCA81944 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B38F80FF96C36718B7AF1590E228B /* ReplaceMe.swift */; };
+		31325787EDB4D858B6CF9F7791C8AA68 /* Pods-NRClickableLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24AB593C7CA8FE93F10CA814317C6F /* Pods-NRClickableLabel_Tests-dummy.m */; };
+		4135DFED04716AB9590B470237AA88B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A3A8E5E32918BC066233B8ED505AED22 /* Pods-NRClickableLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78614170F88D94B393784C69879F8817 /* Pods-NRClickableLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9719C063C7F29E63713543944C81D41 /* NRClickableLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9C65475F96879C47652C172AE2762C8 /* NRClickableLabel-dummy.m */; };
+		D6EDCB34B892768A20B32550BA7CEB6A /* Pods-NRClickableLabel_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9A0485D5EB3ABDCBE07DF4957EB387D /* Pods-NRClickableLabel_Example-dummy.m */; };
+		DFF4A639B9A89E065231F0DBBD317AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E4D2559FE139A11457895177833496C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		EF42825849030E2AF107B5BDFCE679A3 /* NRClickableLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6256E85E9223739A07882E9098D074 /* NRClickableLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CD786B0756EC9B4F3EF2F10C6C3669D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 052875AA0296657A18A982E8A50208CF;
+			remoteInfo = NRClickableLabel;
+		};
+		E74B1A0B6F2E2B854A8ED7C83C169F1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E339B527FCDF65A3B02624D43A23C82;
+			remoteInfo = "Pods-NRClickableLabel_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0159EF6E6E38F3930AA63F075056FA01 /* Pods-NRClickableLabel_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRClickableLabel_Example-umbrella.h"; sourceTree = "<group>"; };
+		1A1A6E42EDB70C187A9751CFC79A2476 /* NRClickableLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRClickableLabel.debug.xcconfig; sourceTree = "<group>"; };
+		1F2376FB9F36AEC1A5F454E853DC8C74 /* Pods-NRClickableLabel_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRClickableLabel_Tests-Info.plist"; sourceTree = "<group>"; };
+		259944254505984AEE5F32EFB42B71DF /* Pods-NRClickableLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRClickableLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2ADB7A7F7C03EBEAB2B7FADCD2E779CA /* NRClickableLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = NRClickableLabel.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2CDD15EB9B874C77ABE67DEF47B83852 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3147F183260593448350704539E41B3B /* Pods-NRClickableLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRClickableLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C92193778CA53817854F854B611734E /* NRClickableLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRClickableLabel-prefix.pch"; sourceTree = "<group>"; };
+		4323F47039C9F3130D1372FD72FE53B0 /* Pods-NRClickableLabel_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NRClickableLabel_Example"; path = Pods_NRClickableLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F15B1743114A5D0D36ADA42637566A4 /* NRClickableLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NRClickableLabel.modulemap; sourceTree = "<group>"; };
+		52FE74338F73F7AD3B554CF1566DFED8 /* Pods-NRClickableLabel_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NRClickableLabel_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AFF9E07BAEB946DB3359D4084BFDFE8 /* NRClickableLabel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NRClickableLabel-Info.plist"; sourceTree = "<group>"; };
+		5C5E70DA11FBE09D098F0996250B636A /* Pods-NRClickableLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRClickableLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5C6256E85E9223739A07882E9098D074 /* NRClickableLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NRClickableLabel-umbrella.h"; sourceTree = "<group>"; };
+		729167C79D6DD67710801C246E6BC5BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78614170F88D94B393784C69879F8817 /* Pods-NRClickableLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRClickableLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7C3B38F80FF96C36718B7AF1590E228B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NRClickableLabel/NRClickableLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		92DC341A3ED6373B0CCC0B13C8506D88 /* NRClickableLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRClickableLabel.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2304FEFDB0F28B35FF826837F4192CA /* Pods-NRClickableLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRClickableLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A9A6BF6AD7569B1CADAF85C68F819CF2 /* NRClickableLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NRClickableLabel; path = NRClickableLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5C2235FA08105A818B861377576D88 /* Pods-NRClickableLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRClickableLabel_Example-Info.plist"; sourceTree = "<group>"; };
+		BC27F4B076F2E6B83416A4940EFF858C /* Pods-NRClickableLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRClickableLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C7C3D44FD53B58C570BAD10A7AC72A40 /* Pods-NRClickableLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRClickableLabel_Tests.modulemap"; sourceTree = "<group>"; };
+		CCDD23C7779A04D49293CE495B5FC3F6 /* Pods-NRClickableLabel_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRClickableLabel_Example.modulemap"; sourceTree = "<group>"; };
+		E9A0485D5EB3ABDCBE07DF4957EB387D /* Pods-NRClickableLabel_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRClickableLabel_Example-dummy.m"; sourceTree = "<group>"; };
+		EE2117DE706876112594D6A78DB0B476 /* Pods-NRClickableLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRClickableLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EEF9C5C6FBCDBFEFD80B657C48BDAA00 /* Pods-NRClickableLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NRClickableLabel_Tests"; path = Pods_NRClickableLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF24AB593C7CA8FE93F10CA814317C6F /* Pods-NRClickableLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRClickableLabel_Tests-dummy.m"; sourceTree = "<group>"; };
+		F9C65475F96879C47652C172AE2762C8 /* NRClickableLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRClickableLabel-dummy.m"; sourceTree = "<group>"; };
+		FCF277DD17608E20FBCFA792445C6212 /* Pods-NRClickableLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRClickableLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FFE44DDE656BAD39577AC42C5C302379 /* Pods-NRClickableLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRClickableLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		480B9E4B2D9ABE51305262347283B5CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4D2559FE139A11457895177833496C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D37F36B460D910B26E27827631AA979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4135DFED04716AB9590B470237AA88B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F793B4CBB397462AD26AB8C33B1A5304 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFF4A639B9A89E065231F0DBBD317AE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34C222E7717DB6A419709CF9C991D7A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F15B1743114A5D0D36ADA42637566A4 /* NRClickableLabel.modulemap */,
+				F9C65475F96879C47652C172AE2762C8 /* NRClickableLabel-dummy.m */,
+				5AFF9E07BAEB946DB3359D4084BFDFE8 /* NRClickableLabel-Info.plist */,
+				3C92193778CA53817854F854B611734E /* NRClickableLabel-prefix.pch */,
+				5C6256E85E9223739A07882E9098D074 /* NRClickableLabel-umbrella.h */,
+				1A1A6E42EDB70C187A9751CFC79A2476 /* NRClickableLabel.debug.xcconfig */,
+				92DC341A3ED6373B0CCC0B13C8506D88 /* NRClickableLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/NRClickableLabel";
+			sourceTree = "<group>";
+		};
+		511B15955CCCE8C96C7C882CC018CCD2 /* NRClickableLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7C3B38F80FF96C36718B7AF1590E228B /* ReplaceMe.swift */,
+				D493B0697C84D75ABEC505A999E9A50B /* Pod */,
+				34C222E7717DB6A419709CF9C991D7A5 /* Support Files */,
+			);
+			name = NRClickableLabel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B01636B552EEC3B84B1A9354FB1D37BE /* Pods-NRClickableLabel_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C7C3D44FD53B58C570BAD10A7AC72A40 /* Pods-NRClickableLabel_Tests.modulemap */,
+				3147F183260593448350704539E41B3B /* Pods-NRClickableLabel_Tests-acknowledgements.markdown */,
+				EE2117DE706876112594D6A78DB0B476 /* Pods-NRClickableLabel_Tests-acknowledgements.plist */,
+				EF24AB593C7CA8FE93F10CA814317C6F /* Pods-NRClickableLabel_Tests-dummy.m */,
+				1F2376FB9F36AEC1A5F454E853DC8C74 /* Pods-NRClickableLabel_Tests-Info.plist */,
+				78614170F88D94B393784C69879F8817 /* Pods-NRClickableLabel_Tests-umbrella.h */,
+				5C5E70DA11FBE09D098F0996250B636A /* Pods-NRClickableLabel_Tests.debug.xcconfig */,
+				FFE44DDE656BAD39577AC42C5C302379 /* Pods-NRClickableLabel_Tests.release.xcconfig */,
+			);
+			name = "Pods-NRClickableLabel_Tests";
+			path = "Target Support Files/Pods-NRClickableLabel_Tests";
+			sourceTree = "<group>";
+		};
+		B47833AFED5BB088B5FD7D747CFBE55F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9A6BF6AD7569B1CADAF85C68F819CF2 /* NRClickableLabel */,
+				4323F47039C9F3130D1372FD72FE53B0 /* Pods-NRClickableLabel_Example */,
+				EEF9C5C6FBCDBFEFD80B657C48BDAA00 /* Pods-NRClickableLabel_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C72C89C3761579258C1CDE38A362875A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DABDF9EF46EC260C2423787D74372FFC /* Pods-NRClickableLabel_Example */,
+				B01636B552EEC3B84B1A9354FB1D37BE /* Pods-NRClickableLabel_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D101328C71FD8217E97942F7698665D2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B47833AFED5BB088B5FD7D747CFBE55F /* Products */,
+				C72C89C3761579258C1CDE38A362875A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D101328C71FD8217E97942F7698665D2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				511B15955CCCE8C96C7C882CC018CCD2 /* NRClickableLabel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D493B0697C84D75ABEC505A999E9A50B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				729167C79D6DD67710801C246E6BC5BF /* LICENSE */,
+				2ADB7A7F7C03EBEAB2B7FADCD2E779CA /* NRClickableLabel.podspec */,
+				2CDD15EB9B874C77ABE67DEF47B83852 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		DABDF9EF46EC260C2423787D74372FFC /* Pods-NRClickableLabel_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CCDD23C7779A04D49293CE495B5FC3F6 /* Pods-NRClickableLabel_Example.modulemap */,
+				52FE74338F73F7AD3B554CF1566DFED8 /* Pods-NRClickableLabel_Example-acknowledgements.markdown */,
+				A2304FEFDB0F28B35FF826837F4192CA /* Pods-NRClickableLabel_Example-acknowledgements.plist */,
+				E9A0485D5EB3ABDCBE07DF4957EB387D /* Pods-NRClickableLabel_Example-dummy.m */,
+				BC27F4B076F2E6B83416A4940EFF858C /* Pods-NRClickableLabel_Example-frameworks.sh */,
+				BA5C2235FA08105A818B861377576D88 /* Pods-NRClickableLabel_Example-Info.plist */,
+				0159EF6E6E38F3930AA63F075056FA01 /* Pods-NRClickableLabel_Example-umbrella.h */,
+				259944254505984AEE5F32EFB42B71DF /* Pods-NRClickableLabel_Example.debug.xcconfig */,
+				FCF277DD17608E20FBCFA792445C6212 /* Pods-NRClickableLabel_Example.release.xcconfig */,
+			);
+			name = "Pods-NRClickableLabel_Example";
+			path = "Target Support Files/Pods-NRClickableLabel_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02FA0049366842C364ED352A695B98D5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C3C08D97A53E3E299CF992355CA725 /* Pods-NRClickableLabel_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46DCB2DB27B7850DC2F64AAC9BBA3334 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF42825849030E2AF107B5BDFCE679A3 /* NRClickableLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9224E67770BCC7660101E74461EFCFA7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3A8E5E32918BC066233B8ED505AED22 /* Pods-NRClickableLabel_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		052875AA0296657A18A982E8A50208CF /* NRClickableLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B20867EC5909AAF684C74679495F60A9 /* Build configuration list for PBXNativeTarget "NRClickableLabel" */;
+			buildPhases = (
+				46DCB2DB27B7850DC2F64AAC9BBA3334 /* Headers */,
+				44FAE6BD2E5CD73466B60608CC9C9829 /* Sources */,
+				F793B4CBB397462AD26AB8C33B1A5304 /* Frameworks */,
+				52CD0DF007D786E112AFF3AD49FBE0D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NRClickableLabel;
+			productName = NRClickableLabel;
+			productReference = A9A6BF6AD7569B1CADAF85C68F819CF2 /* NRClickableLabel */;
+			productType = "com.apple.product-type.framework";
+		};
+		47FEDD502A1D97A44F77EF3705D0D34B /* Pods-NRClickableLabel_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84899980A5E9ADAD9750E223BA49F076 /* Build configuration list for PBXNativeTarget "Pods-NRClickableLabel_Tests" */;
+			buildPhases = (
+				9224E67770BCC7660101E74461EFCFA7 /* Headers */,
+				1160F0732BBE1078526BA0EE99AE0FF9 /* Sources */,
+				480B9E4B2D9ABE51305262347283B5CE /* Frameworks */,
+				E051122E15DE94CF535691EABB935275 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				557BAFFB0DD2D0736AA9A1989930187F /* PBXTargetDependency */,
+			);
+			name = "Pods-NRClickableLabel_Tests";
+			productName = Pods_NRClickableLabel_Tests;
+			productReference = EEF9C5C6FBCDBFEFD80B657C48BDAA00 /* Pods-NRClickableLabel_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		6E339B527FCDF65A3B02624D43A23C82 /* Pods-NRClickableLabel_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABD6B55A4572202F09D274B63E68822 /* Build configuration list for PBXNativeTarget "Pods-NRClickableLabel_Example" */;
+			buildPhases = (
+				02FA0049366842C364ED352A695B98D5 /* Headers */,
+				7DAC7BD8B13C4BAE88D50A32C3CBF5F5 /* Sources */,
+				5D37F36B460D910B26E27827631AA979 /* Frameworks */,
+				35D4F9694EA5E16BC8FCB2BFFB47BAC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2393D9927E130FAE856FFB6FD55D426 /* PBXTargetDependency */,
+			);
+			name = "Pods-NRClickableLabel_Example";
+			productName = Pods_NRClickableLabel_Example;
+			productReference = 4323F47039C9F3130D1372FD72FE53B0 /* Pods-NRClickableLabel_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B47833AFED5BB088B5FD7D747CFBE55F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				052875AA0296657A18A982E8A50208CF /* NRClickableLabel */,
+				6E339B527FCDF65A3B02624D43A23C82 /* Pods-NRClickableLabel_Example */,
+				47FEDD502A1D97A44F77EF3705D0D34B /* Pods-NRClickableLabel_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35D4F9694EA5E16BC8FCB2BFFB47BAC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52CD0DF007D786E112AFF3AD49FBE0D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E051122E15DE94CF535691EABB935275 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1160F0732BBE1078526BA0EE99AE0FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31325787EDB4D858B6CF9F7791C8AA68 /* Pods-NRClickableLabel_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44FAE6BD2E5CD73466B60608CC9C9829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9719C063C7F29E63713543944C81D41 /* NRClickableLabel-dummy.m in Sources */,
+				220F192BBA1008A609A88807DCA81944 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DAC7BD8B13C4BAE88D50A32C3CBF5F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6EDCB34B892768A20B32550BA7CEB6A /* Pods-NRClickableLabel_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		557BAFFB0DD2D0736AA9A1989930187F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NRClickableLabel_Example";
+			target = 6E339B527FCDF65A3B02624D43A23C82 /* Pods-NRClickableLabel_Example */;
+			targetProxy = E74B1A0B6F2E2B854A8ED7C83C169F1D /* PBXContainerItemProxy */;
+		};
+		B2393D9927E130FAE856FFB6FD55D426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NRClickableLabel;
+			target = 052875AA0296657A18A982E8A50208CF /* NRClickableLabel */;
+			targetProxy = 8CD786B0756EC9B4F3EF2F10C6C3669D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		01AB3F4E575D5E909C4D13C2B015CA21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF277DD17608E20FBCFA792445C6212 /* Pods-NRClickableLabel_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRClickableLabel_Example/Pods-NRClickableLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRClickableLabel_Example/Pods-NRClickableLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		331CBF171096B837A8E16C155B8F91F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFE44DDE656BAD39577AC42C5C302379 /* Pods-NRClickableLabel_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRClickableLabel_Tests/Pods-NRClickableLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRClickableLabel_Tests/Pods-NRClickableLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9AE1B84F4466E9A08C9B91B816BAFCDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C5E70DA11FBE09D098F0996250B636A /* Pods-NRClickableLabel_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRClickableLabel_Tests/Pods-NRClickableLabel_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRClickableLabel_Tests/Pods-NRClickableLabel_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5D8FFB6DACF586B8CBE855BDD80819B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259944254505984AEE5F32EFB42B71DF /* Pods-NRClickableLabel_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NRClickableLabel_Example/Pods-NRClickableLabel_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NRClickableLabel_Example/Pods-NRClickableLabel_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E1D28E421E9CCD9DDC6DA8AC1A2C9EDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A1A6E42EDB70C187A9751CFC79A2476 /* NRClickableLabel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NRClickableLabel/NRClickableLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRClickableLabel/NRClickableLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRClickableLabel/NRClickableLabel.modulemap";
+				PRODUCT_MODULE_NAME = NRClickableLabel;
+				PRODUCT_NAME = NRClickableLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E3B70A9C8BEEDD64CA416998269196BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92DC341A3ED6373B0CCC0B13C8506D88 /* NRClickableLabel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NRClickableLabel/NRClickableLabel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NRClickableLabel/NRClickableLabel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NRClickableLabel/NRClickableLabel.modulemap";
+				PRODUCT_MODULE_NAME = NRClickableLabel;
+				PRODUCT_NAME = NRClickableLabel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84899980A5E9ADAD9750E223BA49F076 /* Build configuration list for PBXNativeTarget "Pods-NRClickableLabel_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE1B84F4466E9A08C9B91B816BAFCDC /* Debug */,
+				331CBF171096B837A8E16C155B8F91F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B20867EC5909AAF684C74679495F60A9 /* Build configuration list for PBXNativeTarget "NRClickableLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D28E421E9CCD9DDC6DA8AC1A2C9EDE /* Debug */,
+				E3B70A9C8BEEDD64CA416998269196BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABD6B55A4572202F09D274B63E68822 /* Build configuration list for PBXNativeTarget "Pods-NRClickableLabel_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D8FFB6DACF586B8CBE855BDD80819B /* Debug */,
+				01AB3F4E575D5E909C4D13C2B015CA21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

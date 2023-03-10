@@ -1,0 +1,6 @@
+framework module NRClickableLabel {
+  umbrella header "NRClickableLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

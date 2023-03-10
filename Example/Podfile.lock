@@ -1,0 +1,16 @@
+PODS:
+  - NRClickableLabel (0.1.0)
+
+DEPENDENCIES:
+  - NRClickableLabel (from `../`)
+
+EXTERNAL SOURCES:
+  NRClickableLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NRClickableLabel: a5c9fb1b15550bac3647042ae3a6bb4cb4c2417e
+
+PODFILE CHECKSUM: 45009b399c15437e7d90d802a0c6c0a99af40827
+
+COCOAPODS: 1.11.2
