@@ -59,7 +59,7 @@ public class NRClickableLabel:UITextView{
                 attrString.addAttribute(.foregroundColor, value: obj.textColor, range: nsRange)
                 
                 if let underlineColor = obj.underlineColor{
-                    attrString.addAttribute(.underlineStyle, value: NSUnderlineStyle.styleSingle.rawValue, range: nsRange)
+                    attrString.addAttribute(.underlineStyle, value: NSUnderlineStyle.single.rawValue, range: nsRange)
                     attrString.addAttribute(.underlineColor, value: underlineColor, range: nsRange)
                 }
             }
