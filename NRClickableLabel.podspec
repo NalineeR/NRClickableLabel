@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NRClickableLabel'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'An easy to use library to create Clickabel Lables in iOS.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'NRClickableLabel/**/*'
+  s.source_files = 'Sources/**/*.swift'
   
   # s.resource_bundles = {
   #   'NRClickableLabel' => ['NRClickableLabel/Assets/*.png']

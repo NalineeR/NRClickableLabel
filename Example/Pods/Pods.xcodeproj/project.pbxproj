@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		17C3C08D97A53E3E299CF992355CA725 /* Pods-NRClickableLabel_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0159EF6E6E38F3930AA63F075056FA01 /* Pods-NRClickableLabel_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		220F192BBA1008A609A88807DCA81944 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C3B38F80FF96C36718B7AF1590E228B /* ReplaceMe.swift */; };
 		31325787EDB4D858B6CF9F7791C8AA68 /* Pods-NRClickableLabel_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF24AB593C7CA8FE93F10CA814317C6F /* Pods-NRClickableLabel_Tests-dummy.m */; };
 		4135DFED04716AB9590B470237AA88B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A3A8E5E32918BC066233B8ED505AED22 /* Pods-NRClickableLabel_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78614170F88D94B393784C69879F8817 /* Pods-NRClickableLabel_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -17,6 +16,8 @@
 		DFF4A639B9A89E065231F0DBBD317AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		E4D2559FE139A11457895177833496C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EF42825849030E2AF107B5BDFCE679A3 /* NRClickableLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6256E85E9223739A07882E9098D074 /* NRClickableLabel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC9C031129BB31EE00BEC597 /* NRClickableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C030F29BB31EE00BEC597 /* NRClickableLabel.swift */; };
+		FC9C031229BB31EE00BEC597 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9C031029BB31EE00BEC597 /* Modal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +55,10 @@
 		729167C79D6DD67710801C246E6BC5BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		78614170F88D94B393784C69879F8817 /* Pods-NRClickableLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NRClickableLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7C3B38F80FF96C36718B7AF1590E228B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NRClickableLabel/NRClickableLabel/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		92DC341A3ED6373B0CCC0B13C8506D88 /* NRClickableLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NRClickableLabel.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2304FEFDB0F28B35FF826837F4192CA /* Pods-NRClickableLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRClickableLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A9A6BF6AD7569B1CADAF85C68F819CF2 /* NRClickableLabel */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NRClickableLabel; path = NRClickableLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A6BF6AD7569B1CADAF85C68F819CF2 /* NRClickableLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NRClickableLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA5C2235FA08105A818B861377576D88 /* Pods-NRClickableLabel_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NRClickableLabel_Example-Info.plist"; sourceTree = "<group>"; };
 		BC27F4B076F2E6B83416A4940EFF858C /* Pods-NRClickableLabel_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NRClickableLabel_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C7C3D44FD53B58C570BAD10A7AC72A40 /* Pods-NRClickableLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NRClickableLabel_Tests.modulemap"; sourceTree = "<group>"; };
@@ -68,6 +68,8 @@
 		EEF9C5C6FBCDBFEFD80B657C48BDAA00 /* Pods-NRClickableLabel_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NRClickableLabel_Tests"; path = Pods_NRClickableLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF24AB593C7CA8FE93F10CA814317C6F /* Pods-NRClickableLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NRClickableLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		F9C65475F96879C47652C172AE2762C8 /* NRClickableLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NRClickableLabel-dummy.m"; sourceTree = "<group>"; };
+		FC9C030F29BB31EE00BEC597 /* NRClickableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRClickableLabel.swift; sourceTree = "<group>"; };
+		FC9C031029BB31EE00BEC597 /* Modal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
 		FCF277DD17608E20FBCFA792445C6212 /* Pods-NRClickableLabel_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRClickableLabel_Example.release.xcconfig"; sourceTree = "<group>"; };
 		FFE44DDE656BAD39577AC42C5C302379 /* Pods-NRClickableLabel_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NRClickableLabel_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -118,7 +120,7 @@
 		511B15955CCCE8C96C7C882CC018CCD2 /* NRClickableLabel */ = {
 			isa = PBXGroup;
 			children = (
-				7C3B38F80FF96C36718B7AF1590E228B /* ReplaceMe.swift */,
+				FC9C030D29BB31C900BEC597 /* Sources */,
 				D493B0697C84D75ABEC505A999E9A50B /* Pod */,
 				34C222E7717DB6A419709CF9C991D7A5 /* Support Files */,
 			);
@@ -153,7 +155,7 @@
 		B47833AFED5BB088B5FD7D747CFBE55F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9A6BF6AD7569B1CADAF85C68F819CF2 /* NRClickableLabel */,
+				A9A6BF6AD7569B1CADAF85C68F819CF2 /* NRClickableLabel.framework */,
 				4323F47039C9F3130D1372FD72FE53B0 /* Pods-NRClickableLabel_Example */,
 				EEF9C5C6FBCDBFEFD80B657C48BDAA00 /* Pods-NRClickableLabel_Tests */,
 			);
@@ -223,6 +225,15 @@
 			path = "Target Support Files/Pods-NRClickableLabel_Example";
 			sourceTree = "<group>";
 		};
+		FC9C030D29BB31C900BEC597 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FC9C031029BB31EE00BEC597 /* Modal.swift */,
+				FC9C030F29BB31EE00BEC597 /* NRClickableLabel.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -268,7 +279,7 @@
 			);
 			name = NRClickableLabel;
 			productName = NRClickableLabel;
-			productReference = A9A6BF6AD7569B1CADAF85C68F819CF2 /* NRClickableLabel */;
+			productReference = A9A6BF6AD7569B1CADAF85C68F819CF2 /* NRClickableLabel.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		47FEDD502A1D97A44F77EF3705D0D34B /* Pods-NRClickableLabel_Tests */ = {
@@ -317,6 +328,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					052875AA0296657A18A982E8A50208CF = {
+						LastSwiftMigration = 1330;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -376,7 +392,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9719C063C7F29E63713543944C81D41 /* NRClickableLabel-dummy.m in Sources */,
-				220F192BBA1008A609A88807DCA81944 /* ReplaceMe.swift in Sources */,
+				FC9C031229BB31EE00BEC597 /* Modal.swift in Sources */,
+				FC9C031129BB31EE00BEC597 /* NRClickableLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,6 +688,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A1A6E42EDB70C187A9751CFC79A2476 /* NRClickableLabel.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -691,6 +709,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -702,6 +721,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 92DC341A3ED6373B0CCC0B13C8506D88 /* NRClickableLabel.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
