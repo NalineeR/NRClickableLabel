@@ -5,7 +5,7 @@
 An easy to use library to create Clickabel Lables in iOS.
 
 ### ✨ Demo
-![](https://github.com/NalineeR/NRClickableLabel/demo.gif)
+![](https://github.com/NalineeR/NRClickableLabel/blob/main/demo.gif)
 
 ## 🦿 Prerequisites
 
