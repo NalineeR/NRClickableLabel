@@ -7,15 +7,20 @@
 import UIKit
 
 public class NRClickableLabel:UITextView{
+    
+    public typealias linkTapCallback = ((_ urlValue:URL?,_ linkedText:String)->())
+    
     ///holds the full text
-    public var fullText = String()
+    public var fullAttributedText = NSMutableAttributedString()
     /// holds array of NRLinkAttribute. Which will be used to create link in text
     public var arrLinkAttributes = [NRLinkAttribute]()
     /// holds attribute for complete text.
-    public var normalTextAttributes = NRTextAttribute()
+    public var normalTextAttributes:NRTextAttribute? = nil
+//    ///Holds the bool value for whether the normal text attributes should be applied or not
+//    public var shouldApplyNormalAttributes = false
     
     ///link tap handler. Called when the link is tapped. Returns the clicked Link
-    public var linkHandler:((_ link:URL)->())? = nil
+    public var linkHandler:linkTapCallback? = nil
     
     //MARK: init
     override init(frame: CGRect, textContainer: NSTextContainer?) {
@@ -46,25 +51,40 @@ public class NRClickableLabel:UITextView{
     ///   - font: font for linked text
     ///   - textColor: color of linked text
     ///   - underlineColr: under line color. If nil then underline will not be set.
-    public func process(tapHandler handler: ((URL)->())?){
-        let attrString = NSMutableAttributedString(string: fullText,
-                                                   attributes: [.foregroundColor:normalTextAttributes.color,
-                                                                .font:normalTextAttributes.font])
+    public func process(tapHandler handler: linkTapCallback?){
+        
+        let attrString = fullAttributedText.mutableCopy() as! NSMutableAttributedString
+        if let normalAttr = normalTextAttributes{
+            let fullRange = NSRange(location: 0, length: attrString.length)
+            attrString.addAttributes([.foregroundColor:normalAttr.color,
+                                      .font:normalAttr.font], range: fullRange)
+        }
+        
         for obj in arrLinkAttributes{
             if let rangeVal = attrString.string.range(of: obj.linkText){
                 
                 let nsRange = NSRange(rangeVal, in: attrString.string)
-                attrString.addAttribute(.link, value: obj.link, range: nsRange)
-                attrString.addAttribute(.font, value: obj.font, range: nsRange)
-                attrString.addAttribute(.foregroundColor, value: obj.textColor, range: nsRange)
-                
+                if let linkVal = obj.link {
+                    attrString.addAttribute(.link, value: linkVal, range: nsRange)
+                }else{
+                    attrString.addAttribute(.link, value: "", range: nsRange)
+                }
+                //---------add if provided by user--------
+                if let linkFont = obj.font{
+                    attrString.addAttribute(.font, value: linkFont, range: nsRange)
+                }
+                if let linkTextColor = obj.textColor{
+                    attrString.addAttribute(.foregroundColor, value: linkTextColor, range: nsRange)
+                }
                 if let underlineColor = obj.underlineColor{
                     attrString.addAttribute(.underlineStyle, value: NSUnderlineStyle.single.rawValue, range: nsRange)
                     attrString.addAttribute(.underlineColor, value: underlineColor, range: nsRange)
                 }
             }
         }
-        self.attributedText = attrString
+        let attrFinal = self.attributedText.mutableCopy() as! NSMutableAttributedString
+        attrFinal.append(attrString)
+        self.attributedText = attrFinal
         updateHeight()
         linkHandler = handler
     }
@@ -83,7 +103,11 @@ public class NRClickableLabel:UITextView{
 
 extension NRClickableLabel:UITextViewDelegate{
     public func textView(_ textView: UITextView, shouldInteractWith URL: URL, in characterRange: NSRange, interaction: UITextItemInteraction) -> Bool {
-        linkHandler?(URL)
+        var linkedText = ""
+        if let range = Range(characterRange, in: fullAttributedText.string){
+            linkedText = String(fullAttributedText.string[range])
+        }
+        linkHandler?(URL,linkedText)
         return linkHandler == nil
     }
 }

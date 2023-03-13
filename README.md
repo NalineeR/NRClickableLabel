@@ -18,7 +18,7 @@ An easy to use library to create Clickabel Lables in iOS.
 3. Set following properties as per requirement -   
    3.1. arrLinkAttributes -> set link / link color / font / underline color etc  
    3.2. normalTextAttributes -> set font and color for normal text  
-   3.3  fullText -> set full text of label including the linked text.  
+   3.3  fullAttributedText -> set full text of label including the linked text.  
 4. Now call the process() function. Now you are ready to go. 🎉
 
 ## ✍️ Author

@@ -23,9 +23,9 @@ public struct NRTextAttribute{
 
 public struct NRLinkAttribute{
     public var linkText: String
-    public var textColor: UIColor
-    public var font: UIFont
-    public var link: URL
+    public var textColor: UIColor?
+    public var font: UIFont?
+    public var link: URL?
     public var underlineColor : UIColor?
     
     /// init link text attributes' struct
@@ -36,9 +36,9 @@ public struct NRLinkAttribute{
     ///   - font: font for linked text
     ///   - textColor: color of linked text
     ///   - underlineColr: under line color. If nil then underline will not be set.
-    public init (linkText:String, link:URL,
-          font:UIFont = .systemFont(ofSize: 15),
-          textColor:UIColor = .blue,underlineClr:UIColor?=nil){
+    public init (linkText:String, link:URL?,
+                 font:UIFont?=nil,textColor:UIColor?=nil,
+                 underlineClr:UIColor?=nil){
         
         self.linkText = linkText
         self.link = link
